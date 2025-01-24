@@ -1,0 +1,34 @@
+.idea/
+/logs
+/temp
+
+.DS_Store
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+/server/log/
+/server/gva
+/server/latest_log
+uploads/
+!uploads/file/default.png
+
+*.iml
+web/.pnpm-debug.log
+web/pnpm-lock.yaml
+/api/logs/
